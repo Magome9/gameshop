@@ -1,0 +1,211 @@
+*{
+  box-sizing:border-box;
+margin-right: 10px;
+}
+header {
+  margin-bottom: 5px;
+  padding: 10px;
+}
+.header-a {
+  font-size: 3vh;
+  color: rgb(255, 250, 250);
+  display: inline-block;
+  line-height: 1;
+  cursor: pointer;
+}
+.head-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-li {
+  font-size: 3vh;
+  margin-right: 20px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 10px 20px;
+  transition: .2s linear;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.naw-li:hover{
+  transform: scale(1.2);
+}
+.btn1 {
+  margin-right: 20px;
+  background-color:rgb(3, 5, 82) ;
+}
+.btn2{
+    margin-right: 20px;    
+     background-color:red;
+}
+.logo {
+  font-size: 3vh;
+}
+.btn-link {
+  display: flex;
+  text-align: center;
+}
+.btn-link1{
+  font-size: 2vh;
+    color: rgb(248, 245, 245);
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+}
+.btn-link2{
+  font-size: 2vh;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    line-height: 1;
+    cursor: pointer;
+}
+.game-description {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+}
+.card {
+  margin: auto;
+  margin-right: 1vh;
+  margin-bottom: 20px;
+}
+.card-info {
+  font-size: 2vh;
+  color: gray;
+  padding-right: 0%;
+}
+.img {
+  width: 5vh;
+  height: 4.2vh;
+  padding-right: 0%;
+}
+
+.Dop{
+ position: absolute;
+ top: 150px;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+}
+
+.header-li1{
+  padding-top: 1px;
+    position: absolute;
+    right: 42%;
+}
+.header-li2{
+position: absolute;
+right: 49%;
+}
+.header-li3{
+ position: absolute;
+ right: 56%;
+}
+.Resident {
+  position: absolute;
+  top: 30%;
+  right: 70%;
+}
+
+.Witcher {
+  position: absolute;
+  top: 30%;
+  right: 53%;
+}
+.Hitman{
+  position: absolute;
+    top: 30%;
+    right: 36%;
+}
+.Fifa{
+position: absolute;
+top:30%;
+right: 19%;
+
+}
+.Gears {
+position: absolute;
+top:50%;
+right: 70%;
+
+}
+
+.Assassin {
+  position: absolute;
+  top: 50%;
+  right: 53%;
+}
+
+.Resident4 {
+  position: absolute;
+  top: 50%;
+  right:36% ;
+}
+
+.Need {
+  position: absolute;
+  top:50%;
+  right: 19%;
+}
+
+.Dead {
+position: absolute;
+top: 70%;
+right: 70%;
+}
+
+.World {
+  position: absolute;
+  top: 70%;
+  right: 53%;
+}
+
+.Stalker {
+  position: absolute;
+  top: 70%;
+  right: 36%;
+}
+
+.Redemption {
+  position: absolute;
+  top: 70%;
+  right: 19%;
+}
+
+.God {
+  position: absolute;
+  top: 90%;
+  right: 70%;
+}
+
+.Metro {
+position: absolute;
+top: 90%;
+right: 53%;
+}
+
+.Mortal {
+  position: absolute;
+  top: 90%;
+  right: 36%;
+}
+
+.Call {
+  position: absolute;
+  top: 90%;
+  right: 19%;
+}
